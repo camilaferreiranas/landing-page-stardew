@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Stardew Valley</title>
+</head>
+<body>
+<!--Menu-->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a href="" class="navbar-brand">
+            <img src="img/logo_stardew.png" title="Logo de Stardew Valley">
+        </a>
+        <button class="navbar-toggler" type="button"
+        data-toggle="collapse" data-target="#collapsibleNavbar"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" title="Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#info" class="nav-link " title="Info">Info</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#historia" class="nav-link " title="História do jogo">História do Jogo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#personagem" class="nav-link " title="Personagem principal">Personagem Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#steam" class="nav-link " title="Comprar na Steam">Comprar na Steam</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<!--Image Slider-->
+<div id="slides" class="carousel slide" data-ride="carousel" title="Imagens de Stardew Valley">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/img1.jpg">
+            <div class="carousel-caption">
+                <h1 class="display-2">Conheça Stardew Valley</h1>
+                <h3>“Muito mais que um jogo de fazenda, este trabalho de amor de um homem só está cheio de conteúdo e coração aparentemente infinito .”
+                   <b>5/5 – Giant Bomb</b> </h3>
+                   <button type="button" class="btn btn-outline-light btn-lg" title="Conheça esse mundo">Conheça esse mundo</button>
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/img2.jpg">
+        </div>
+        <div class="carousel-item">
+            <img src="img/img3.jpg">
+        </div>
+    </div>
+</div>
+
+<!--Comprar na Steam-->
+<div class="container-fluid" id="steam">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">
+                Compre o jogo na Steam e aproveite todos seus benefícios
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank">
+            <button type="button" class="btn btn-outline-secondary btn-lg">
+                Comprar na Steam
+            </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--Infos-->
+<div class="container-fluid padding" id="info">
+    <div class="row info padding">
+        <div class="col-lg-6">
+            <h2>Informações sobre o jogo</h2>
+                <p>Stardew Valley foi criado pelo game designer Eric Barone, com o pseudônimo de ConcernedApe. 
+                    Durante os quatro anos que ele passou desenvolvendo sozinho, ele aprendeu as habilidades necessárias para produzir a música, arte, programação e design do jogo. 
+                    O jogo foi lançado em 26 de fevereiro de 2016 e após dois meses ultrapassou a marca de 1 milhão de cópias vendidas. 
+                </p>
+                <br>
+                <a href="https://www.stardewvalley.net/press/" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/fazenda.png" class="img-fluid" width="300" title="Imagem de Stardew Valley">
+            </div>
+    </div>
+</div>
+<hr class="my-4">
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
+
+        </div>
+    </div>
+</figure>
+
+
+<!--História do jogo 2 colunas-->
+<div class="container-fluid padding" id="historia">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>História do Jogo</h2>
+            <p>Stardew Valley é um RPG de vida no campo de mundo aberto!</p>
+            <p>Você herdou a fazenda de seu avô. Armado com algumas ferramentas e algum dinheiro você inicia sua nova vida.</p>
+            <p>Mesmo num local pacífico com a presença da Joja Corporation o ambiente não é mais o mesmo.</p>
+            <p>O Centro Comunitário está em pedaços...</p>
+            <p>Com sua ajuda Stardew Valley pode se tornar um ótimo local para viver novamente.</p>
+            <br>
+        </div>
+        <div class="col-lg-6">
+            <img src="img/jogo.png" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<hr class="my-4">
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
+
+        </div>
+    </div>
+</figure>
+
+<!--Conheça o personagem principal 2 colunas-->
+<div class="container-fluid padding" id="personagem">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>Conheça o personagem principal</h2>
+            <p>O Personagem em Stardew Valley é customizável. A aparência inclui 24 tons de pele, 73 cortes de cabelo, 112 camisas, 4 calças e 20 acessórios. Todos podem ser usados por ambos os gêneros, a aparência pode ser alterada ao decorrer do jogo. </p>
+            <p>O gênero pode ser alterado e tem algumas restrições como a entrada ao spa masculino ou feminino. É possível casar-se com qualquer NPC, independente do gênero. Num casamento hetero a mulher fica grávida por 14 dias e dar luz à criança, num casamento do mesmo sexo uma criança pode ser adotada. </p>
+        </div>
+        <div class="col-lg-6">
+            <img src="img/personagem.png" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+
+<!--Footer-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="" >
+                    <hr class="light">
+                    <p>Este site é meramente informativo.</p>
+                    <p>Todos os direitos do jogo são da ConcernedApe.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="" >
+                    <hr class="light">
+                    <h5>Plataformas</h5>
+                    <p>PC</p>
+                    <p>Xbox One</p>
+                    <p>PS4</p>
+                    <p>Nintendo Switch</p>
+
+                </div>
+                <div class="col-md-4">
+                    <img src="" >
+                    <hr class="light">
+                    <h5>Onde achar</h5>
+                    <p>Steam</p>
+                    <p>Nuuvem</p>
+                    <p>Microsoft Store</p>
+                    <p>PS Store</p>
+                    <p>E-shop</p>
+                </div>
+            </div>
+            <div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; Camila Ferreira</h5>
+			</div>
+        </div>
+    </footer>
+</body>
+</html>
